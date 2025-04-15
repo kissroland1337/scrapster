@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/igazolas.css">
+    <script src="script/igazolas.js"></script>
+    <title>Scrapster</title>
+   
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="kepek/logo.png" alt="Scrapster LOGO">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="autoink.php">Autóink</a></li>
+                    <li><a href="rolunk.html">Rólunk</a></li>
+                    <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                    <li><a href="igazolas.html">Bontási igazolás</a></li>
+                    <li><a href="loginpanel.php">Belépés</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="about" id="certificate">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="kepek/junkyard.png" alt="Scrapster">
+            </div>
+            <div class="about-content">
+                <h2>Bontási igazolás</h2>
+                <p>Tisztelt ügyfeleink! Tájékoztatjuk önöket, hogy a már korábban hatályos 64/2009. ( XI. 23. ) KHEM rendelet szerint, 2011.03.19-én megszűnt a papír alapon történő BONTÁSI ÁTVÉTELI IGAZOLÁS kiadás. Az új törvények értelmében BONTÁSI ÁTVÉTELI IGAZOLÁST, csak elektronikus úton a KÖKIR rendszeren keresztül lehet kiállítani. A Scrapster KFT a jogszabályi előírásoknak megfelelően, már időben berendezkedett az új rendszerre, s továbbra is állunk ügyfeleink rendelkezésére. A BONTÁSI ÁTVÉTELI IGAZOLÁST most már a KÖKIR rendszeren keresztül állítjuk ki telephelyünkön, a gépjárművek NKH által előírt vizsgálata, és fénykép felvételei után. Az ország egész területéről folyamatosan tudjuk a bontásra szánt járműveket beszállítani, BONTÁSI ÁTVÉTELI IGAZOLÁSSAL a Forgalomból Végleg kivonni, és a tőlünk távol eső ügyfeleinknek is tudunk megoldást biztosítani a Forgalomból történő végleges kivonás, és a Regisztrált Autóbontóba való leadáshoz.
+
+                    Ha szeretné leadni roncsautóját nálunk, töltse ki az alábbi űrlapot!
+                    
+                    </p>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kapcsolat</h2>
+                <p>Keressen minket bizalommal! Szakértő csapatunk készséggel áll rendelkezésére.</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Elérhetőségeink</h3>
+                    <div class="contact-details">
+                        <div>
+                            <i>📍</i>
+                            <p>4700 Mátészalka, Ipari út 8.</p>
+                        </div>
+                    
+                        <div>
+                            <i>📱</i>
+                            <p>+36 30 123 4567</p>
+                        </div>
+                        <div>
+                            <i>✉️</i>
+                            <p>support@scrapster.com</p>
+                        </div>
+                    </div>
+                    
+                    <h3>Nyitvatartás</h3>
+                    <div class="contact-details">
+                        <div>
+                            <p>Hétfő - Péntek: 9:00 - 18:00</p>
+                        </div>
+                        <div>
+                            <p>Szombat: 9:00 - 14:00</p>
+                        </div>
+                        <div>
+                            <p>Vasárnap: Zárva</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+       
+                
+                <div class="contact-form">
+                    <form action="kapcsolat_bekuld.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Név</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefonszám</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Üzenet</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <input type="hidden" name="oldal" value="igazolas.html">
+                        <button type="submit" class="btn">Küldés</button>
+                        <div id="statusMessage" style="margin-top: 15px; padding: 10px; display: none; text-align: center; border-radius: 5px;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Scrapster</h3>
+                    <p>Széles választékban elérhető roncsautók, <br> 
+                        megbízható és gyors szolgáltatás,<br>
+                         valamint évtizedes szakértelem egy helyen,<br>
+                          hogy ügyfeleink a lehető legjobb megoldást<br>
+                           találják járműveik bontására<br> és  alkatrészek beszerzésére.</p>
+                </div>
+                
+                
+                <div class="footer-section">
+                    <h3>Oldalaink</h3>
+                    <p><a href="index.html">Főoldal</a></p>
+                    <p><a href="autoink.php">Autóink</a></p>
+                    <p><a href="rolunk.html">Rólunk</a></p>
+                    <p><a href="kapcsolat.html">Kapcsolat</a></p>
+                    <p><a href="igazolas.html">Bontási igazolás</a></p>
+                
+                </div>
+                
+                
+                
+                <div class="footer-section">
+                    <h3>Kapcsolat</h3>
+                    <p>4700 Mátészalka, Ipari út 8.</p>
+                    <p>+36 30 123 4567</p>
+                    <p>support@scrapster.com</p>
+                    <p>Hétfő - Péntek: 9:00 - 18:00</p>
+                    <p>Szombat: 9:00 - 14:00</p>
+                    <p>Vasárnap: Zárva</p>
+                    
+                    
+                </div>
+            </div>
+
+            
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Scrapster Autóbontó. Minden jog fenntartva.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
